@@ -1,0 +1,210 @@
+body {
+    font-family:'Roboto', sans-serif;
+    color:#434455;
+    background-color: #ffffff;  
+}
+ul, 
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+/*============ header title
+/*.title {}
+.title-nav {}*/
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+/*.title-list {}
+.title-item {}*/
+.title-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;  
+}
+.title-link:hover,
+.title-link:focus {
+    color: #404bbf; 
+}
+.address {
+    font-style: normal;
+}
+/*.address-list {
+}
+.address-item {
+}*/
+.address-link {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf  
+}
+/*========== page Hero ==========*/
+.hero {
+    background: #2e2f42;
+}
+
+.hero-head {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;    
+}
+
+.btn-one {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background: #4d5ae5;
+        cursor: pointer;
+}
+.btn-one:hover,
+.btn-one:focus {
+background: #404bbf;
+}
+/*========== section-two ==========*/
+.section-two-titli {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-two-text {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*========== section-team ==========*/
+
+.section-team {
+    background: #f4f4fd;
+}
+.section-team-item {
+    background: #fff;
+}
+.section-team-bigtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.section-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /*text-align: center;*/
+    color: #2e2f42;
+}
+.section-team-text {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /*text-align: center;*/
+    color: #434455;
+}
+/*========== section-portfolio ==========*/
+/*.section-portfolio {}*/
+
+.section-portfolio-bigtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+/*.section-portfolio-list {}*/
+
+.section-portfolio-item {
+    background: #fff;
+}
+
+.section-portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-portfolio-text {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*========== footer ground ==========*/
+.ground {
+    background: #2e2f42;
+}
+
+.ground-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.ground-logo-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.ground-text {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
