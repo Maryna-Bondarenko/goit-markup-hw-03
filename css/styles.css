@@ -28,10 +28,10 @@ img {
    padding: 0 15px;
    margin: 0 auto;
 }
-.section {
+/*.section {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+}*/
 .heder-container {
     display: flex;
     align-items: center;
@@ -140,15 +140,22 @@ border-bottom: 1px solid #e7e9fc;
         cursor: pointer;
         padding: 16px 32px;
         bottom: none;
-        min-width: 169px;
+        min-width: 169px;        
         display: block;
             margin: 0 auto;
+            height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .btn-one:hover,
 .btn-one:focus {
 background: #404bbf;
 }
 /*========== section-two ==========*/
+.section-two {
+    padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -198,6 +205,7 @@ background: #404bbf;
     gap: 24px;        
 }
 .section-team {
+    padding: 120px 0;
     background: #f4f4fd;
 }
 .section-team-name {
@@ -244,8 +252,13 @@ padding: 32px 0;
     color: #434455;
 }
 /*========== section-portfolio ==========*/
-/*.section-portfolio {}*/
-
+.section-portfolio {
+    padding: 120px 0;
+    border: 1px solid #e7e9fc;
+}
+/*.portfol-section {
+    border: 1px solid #e7e9fc;
+}*/
 .section-portfolio-bigtitle {
     font-weight: 700;
     font-size: 36px;
@@ -306,6 +319,8 @@ display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .ground-logo-part {
@@ -317,8 +332,8 @@ display: flex;
     text-transform: uppercase;
     color: #f4f4fd;
     max-width: 115px;
-        display: inline-block;
-        margin-bottom: 16px;
+       
+       
 }
 
 .ground-text {
