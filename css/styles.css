@@ -254,11 +254,11 @@ padding: 32px 0;
 /*========== section-portfolio ==========*/
 .section-portfolio {
     padding: 120px 0;
+    /*border: 1px solid #e7e9fc;*/
+}
+.portfol-section {
     border: 1px solid #e7e9fc;
 }
-/*.portfol-section {
-    border: 1px solid #e7e9fc;
-}*/
 .section-portfolio-bigtitle {
     font-weight: 700;
     font-size: 36px;
